@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Fizzizist/techQuoteAPI#readme",
   "dependencies": {
+    "json-object": "0.0.3",
     "mysql": "^2.15.0"
   }
 }

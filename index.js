@@ -11,7 +11,7 @@ var con = mysql.createConnection({
 });
 
 http.createServer(function(req,res){
-		res.setHeader(200, {'Content-Type': 'application/json'});
+		//res.setHeader(200, {'Content-Type': 'application/json'});
 		con.query("SELECT * FROM quotes", function (err, result, fields){
 			if (err) throw err;
 			var randomNum = Math.floor(Math.random()*10);
