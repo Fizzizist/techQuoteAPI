@@ -1,0 +1,23 @@
+{
+  "name": "techquoteapi",
+  "version": "1.0.0",
+  "description": "API for randomly generating tech quotes in JSON format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fizzizist/techQuoteAPI.git"
+  },
+  "author": "Peter Vlasveld",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fizzizist/techQuoteAPI/issues"
+  },
+  "homepage": "https://github.com/Fizzizist/techQuoteAPI#readme",
+  "dependencies": {
+    "json-object": "0.0.3",
+    "mysql": "^2.15.0"
+  }
+}
