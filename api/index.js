@@ -20,6 +20,7 @@ http.createServer(function(req,res){
 				"author" : result[randomNum].author
 			}
 			console.log(result);
+            res.setHeader('Access-Control-Allow-Origin', '*');
 			res.end(JSON.stringify(newJson));
 
 		});
